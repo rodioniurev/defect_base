@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class BaseDataLoader(ABC):
+    """
+    Abstract class for loading of data
+    """
     def __init__(self, config):
         self.config = config
 

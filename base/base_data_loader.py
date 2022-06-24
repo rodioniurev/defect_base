@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class BaseModel(ABC):
+    """
+    Abstract class for operations with model
+    """
     def __init__(self, config):
         self.config = config
         self.model = None
